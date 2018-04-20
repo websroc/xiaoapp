@@ -1,0 +1,7 @@
+<view class='vip_intro' wx:for="{{arrayVips}}" wx:key="item">
+ <view class="vip_title"><image src="../../images/jiji.png"></image>{{item.title}}</view>
+ <view class="vip_titlese">{{item.oneti}}</view>
+ <view class="vip_titlese">{{item.twoti}}</view>
+ <view class="vip_titlese">{{item.threeti}}</view>
+ <view class="vip_titlese">{{item.fourti}}</view>
+</view>

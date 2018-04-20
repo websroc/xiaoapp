@@ -1,0 +1,7 @@
+.tjxdz {
+  margin: 20rpx;
+}
+.tjxdz button {
+  background-color: #ff9600;
+  color: #fff;
+}

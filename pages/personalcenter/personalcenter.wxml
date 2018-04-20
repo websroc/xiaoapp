@@ -1,0 +1,61 @@
+<!--头部  -->
+<view class="personal">
+  <view class="personal_img">
+    <image src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class="personal_name">
+    <view>{{userInfo.nickName}}</view>
+    <image src="../../images/5.png" wx:if="{{userType>0}}"></image>
+  </view>
+  <view class='personal_vip'>
+    <view>
+      <image style="width:35rpx;height:35rpx; vertical-align:middle;" mode="{{item.mode}}" src="../../images/tongphy.png"></image> 铜牌会员</view>
+    <view>
+      <image style="width:37rpx;height:37rpx;vertical-align:middle;" mode="{{item.mode}}" src="../../images/jif.png"></image> 积分888</view>
+  </view>
+</view>
+
+<!-- 底部 -->
+<view class="zan-panel">
+  <navigator url="../dingdan/dingdan">
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">查看订单</view>
+      <view class="zan-cell__ft">全部订单</view>
+    </view>
+  </navigator>
+</view>
+<view class="zan-panel">
+  <navigator url="../coupon/coupon">
+    <view class="zan-cell zan-cell--access">
+      <image style="width:56rpx;height:56rpx; margin-right:10rpx;" mode="{{item.mode}}" src="../../images/youhj.png"></image>
+      <view class="zan-cell__bd">优惠卷</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+  </navigator>
+   <navigator url="../shoucang/shoucang">
+  <view class="zan-cell zan-cell--access">
+    <image style="width:56rpx;height:56rpx; margin-right:10rpx;" mode="{{item.mode}}" src="../../images/wodesc.png"></image>
+    <view class="zan-cell__bd">我的收藏</view>
+    <view class="zan-cell__ft"></view>
+  </view>
+  </navigator>
+  <navigator url="../fpxx/fpxx">
+  <view class="zan-cell zan-cell--access">
+    <image style="width:56rpx;height:56rpx; margin-right:10rpx;" mode="{{item.mode}}" src="../../images/fapxx.png"></image>
+    <view class="zan-cell__bd">发票信息</view>
+    <view class="zan-cell__ft"></view>
+  </view>
+  </navigator>
+  <navigator url="../shdz/shdz">
+  <view class="zan-cell zan-cell--access">
+    <image style="width:56rpx;height:56rpx; margin-right:10rpx;" mode="{{item.mode}}" src="../../images/shouhdz.png"></image>
+    <view class="zan-cell__bd">收货地址</view>
+    <view class="zan-cell__ft"></view>
+  </view>
+    </navigator>
+  <view class="zan-cell zan-cell--access">
+    <image style="width:56rpx;height:56rpx; margin-right:10rpx;" mode="{{item.mode}}" src="../../images/bangdsj.png"></image>
+    <view class="zan-cell__bd">绑定手机</view>
+    <view class="zan-cell__ft"></view>
+  </view>
+</view>

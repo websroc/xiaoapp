@@ -1,0 +1,22 @@
+<view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">张三</view>
+        <view class="zan-cell__desc">陕西省西安市雁塔区丈八沟街道旺座现代城</view>
+      </view>
+      <view class="zan-cell__ft">11234156456</view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+      <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">默认地址</view>
+      <view class="zan-cell__ft">编辑</view>
+      <view class="zan-cell__ft">删除</view>
+    </view>
+  </view>
+  <view class='tjxdz'>
+    <navigator url="../addaddress/addaddress" >
+      <button class="zan-btn ">添加新地址</button>
+    </navigator>
+  </view>

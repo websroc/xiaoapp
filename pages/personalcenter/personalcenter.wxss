@@ -1,0 +1,44 @@
+/* 头部 */
+.personal {
+  padding-top: 20rpx;
+   background: #ffa800; 
+}
+.personal_img image{
+  width: 162rpx;
+  height: 162rpx;
+  border-radius: 50%;
+}
+.personal_img {
+  text-align: center;
+}
+.personal_name {
+  text-align: center;
+  margin-top: 5rpx;
+}
+.personal_name view {
+  color: #fefefe;
+  font-size: 35rpx;
+  display: inline-block;
+}
+.personal_vip {
+  text-align: center;
+  margin-top: 5rpx;
+  padding-bottom: 40rpx;
+}
+.personal_vip view {
+   color: #fefefe;
+  font-size: 32rpx;
+  margin: 0 20rpx;
+  display: inline-block;
+}
+.personal_name image {
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+view {
+  font-size: 28rpx;
+  font-family: "微软雅黑";
+}
+
+/* 底部 */

@@ -1,0 +1,12 @@
+<view class='section new_section' style='margin-bottom:20rpx;'>
+ <view class='tealis '>
+   <view class='tealist' wx:for="{{arraylis}}" wx:key="item">
+    <view class='goodspic'>
+    <image style="width: 334rpx; height:210rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+    </view>
+    <view class="section__goodsname">{{item.goodsname}}</view>
+    <view class="section__price">{{item.price}}</view>
+    <view class="section__sales">{{item.sales}}</view>
+  </view>
+ </view>
+</view>

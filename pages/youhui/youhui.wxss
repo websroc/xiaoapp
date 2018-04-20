@@ -1,0 +1,9 @@
+.page {
+  position: relative;
+}
+.btn_submit  {
+  position: fixed;
+  bottom: 0;
+  width: 710rpx;
+  margin: 20rpx;
+}

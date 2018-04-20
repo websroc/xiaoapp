@@ -1,0 +1,7 @@
+.submiys {
+  margin: 20rpx;
+}
+.submiys button {
+  background-color: #ff9600;
+  color: #fff;
+}

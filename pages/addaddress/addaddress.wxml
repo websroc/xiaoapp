@@ -1,0 +1,54 @@
+<import src="../../zanui/dist/field/index.wxml" />
+  <view class="zan-panel mt0">
+    <template
+      is="zan-field"
+      data="{{ title: '收货人', type: 'input', placeholder: '名字', value }}">
+      </template>
+      <template
+      is="zan-field"
+      data="{{ title: '联系电话', type: 'number', placeholder: '输入手机号', value }}">
+      </template>
+    <view class="zan-cell zan-field">
+      <view class="zan-cell__hd zan-field__title">省</view>
+      <picker
+        mode="selector"
+        class="zan-field__input zan-cell__bd"
+        range="{{ area }}"
+        value="{{ areaIndex }}"
+        bindchange="onAreaChange"
+      >
+        {{ area[areaIndex] }}
+      </picker>
+    </view>
+    <view class="zan-cell zan-field">
+      <view class="zan-cell__hd zan-field__title">市</view>
+      <picker
+        mode="selector"
+        class="zan-field__input zan-cell__bd"
+        range="{{ area }}"
+        value="{{ areaIndex }}"
+        bindchange="onAreaChange"
+      >
+        {{ area[areaIndex] }}
+      </picker>
+    </view>
+    <view class="zan-cell zan-field">
+      <view class="zan-cell__hd zan-field__title">区/县</view>
+      <picker
+        mode="selector"
+        class="zan-field__input zan-cell__bd"
+        range="{{ area }}"
+        value="{{ areaIndex }}"
+        bindchange="onAreaChange"
+      >
+        {{ area[areaIndex] }}
+      </picker>
+    </view>
+      <template
+      is="zan-field"
+      data="{{ title: '详细地址', type: 'input', placeholder: '输入详细地址', value }}">
+      </template>
+  </view>
+   <view class='tjxdz'>
+      <button class="zan-btn ">提交</button>
+  </view>

@@ -1,0 +1,26 @@
+  <import src="../../zanui/dist/tab/index.wxml" />
+  <view >
+    <template
+      is="zan-tab"
+      data="{{ ...tab1, componentId: 'tab1' }}"></template>
+  </view>
+   <view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f;"></view>
+      <view class="zan-cell__bd">推荐优惠组合</view>
+      <view class="zan-cell__ft">使用规则</view>
+    </view>
+  </view>
+  
+  <view class="zan-cell">
+  <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f;"></view>
+    <view class="stamp">
+    <view class="par  stamp01">
+      <text class="sign">￥<text>50</text></text>
+    </view>
+    <view class='time_val'>
+    <view class='vale_car'>满 <text style='color:#a75312;'>199</text> 使用</view>
+    <view class="copy">使用时间：2015-08-13 </view>
+    </view>
+    </view>
+  </view>

@@ -1,0 +1,107 @@
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+      <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f;"></view>
+      <view class="zan-cell__bd">购买1件可优惠换购热销商品</view>
+    </view>
+      <view class="zan-cell">
+      <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f;"></view>
+      <view class="zan-cell__bd">不使用活动优惠</view>
+    </view>
+  </view>
+ <view style='margin-bottom:130rpx;'>
+  <view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">满1件，最高可选10款:</view>
+    </view>
+   <view class="zan-card">
+    <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f; line-height:6; float:left;"></view>
+   <view class="zan-card__thumb">
+        <image class="zan-card__img"
+          src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
+          mode="aspectFit"
+          style='width:150rpx;'
+        ></image>
+      </view>
+      <view class="zan-card__detail">
+        <view class="zan-card__detail-row" style='margin:20rpx 0 40rpx 0;'>
+        <view class="zan-ellipsis--l2">
+             红烧牛肉虚拟商品有库存
+          </view>
+        </view>
+        <view class="zan-card__detail-row zan-c-gray-darker" >
+          <view class="zan-card__left-col zan-c-red">
+         ￥257</view>
+        </view>
+      </view>
+    </view>
+     <view class="zan-card">
+    <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f; line-height:6; float:left;"></view>
+   <view class="zan-card__thumb">
+        <image class="zan-card__img"
+          src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
+          mode="aspectFit"
+          style='width:150rpx;'
+        ></image>
+      </view>
+      <view class="zan-card__detail">
+        <view class="zan-card__detail-row" style='margin:20rpx 0 40rpx 0;'>
+        <view class="zan-ellipsis--l2">
+             红烧牛肉虚拟商品有库存
+          </view>
+        </view>
+        <view class="zan-card__detail-row zan-c-gray-darker" >
+          <view class="zan-card__left-col zan-c-red">
+         ￥257</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+   <view class="zan-card">
+    <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f; line-height:6; float:left;"></view>
+   <view class="zan-card__thumb">
+        <image class="zan-card__img"
+          src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
+          mode="aspectFit"
+          style='width:150rpx;'
+        ></image>
+      </view>
+      <view class="zan-card__detail">
+        <view class="zan-card__detail-row" style='margin:20rpx 0 40rpx 0;'>
+        <view class="zan-ellipsis--l2">
+             红烧牛肉虚拟商品有库存
+          </view>
+        </view>
+        <view class="zan-card__detail-row zan-c-gray-darker" >
+          <view class="zan-card__left-col zan-c-red">
+         ￥257</view>
+        </view>
+      </view>
+    </view>
+     <view class="zan-card">
+    <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#38f; line-height:6; float:left;"></view>
+   <view class="zan-card__thumb">
+        <image class="zan-card__img"
+          src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
+          mode="aspectFit"
+          style='width:150rpx;'
+        ></image>
+      </view>
+      <view class="zan-card__detail">
+        <view class="zan-card__detail-row" style='margin:20rpx 0 40rpx 0;'>
+        <view class="zan-ellipsis--l2">
+             红烧牛肉虚拟商品有库存
+          </view>
+        </view>
+        <view class="zan-card__detail-row zan-c-gray-darker" >
+          <view class="zan-card__left-col zan-c-red">
+         ￥257</view>
+        </view>
+      </view>
+    </view>
+  </view>
+ </view>
+  <view class='btn_submit'>
+    <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"  style='backgroud-color:#ff9600;'> 提交 </button>
+  </view>

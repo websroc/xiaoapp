@@ -1,0 +1,63 @@
+
+.stamp {
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	font-family:"Microsoft YaHei", 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+}
+.stamp {
+	width: 750rpx;
+	height: 160rpx;
+	position: relative;
+	overflow: hidden;
+}
+.par:before {
+	content: '';
+	position: absolute;
+	top:0;
+	bottom:0;
+	left:10px;
+	right:10px;
+	z-index: -1;
+}
+
+.stamp .par {
+	float: left;
+  padding: 35rpx 12rpx;
+	width: 248rpx;
+	text-align: center;
+  position: relative;
+}
+.stamp .par .sign {
+	font-size: 34px;
+  color:#fff;
+}
+.time_val {
+  position: absolute;
+  top: 0;
+  right: 20rpx;
+  width: 342rpx;
+  height:160rpx;
+  background-color: #fff0bb;
+  z-index: -222;
+  padding:35rpx 0 0 40rpx;
+}
+.time_val .vale_car {
+  text-align: left;
+  color: #625d48;
+  font-weight: 800;
+}
+.time_val .copy {
+  padding: 10rpx 0;
+ text-align: left;
+  font-size: 28rpx; 
+  color: #655f4b;
+}
+.stamp01 {
+	background: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10rpx, #d9372c 10rpx);
+	background-size: 30rpx 30rpx;
+	background-position: 18rpx 6rpx;
+}
+.stamp01:before {
+	background-color:#d9372c;
+}

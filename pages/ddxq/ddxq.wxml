@@ -1,0 +1,91 @@
+<view class="zan-panel zan-panel--without-border" style='margin-top:0;border-bottom:1rpx solid #e5e5e5;'>
+  <view class='zan-c-gray-dark zan-font-14' style="padding: 10px 10px 10px 10px;">订单状态:
+    <text>待支付</text>
+    <text style='display:block; float:right;'>支付剩余23时55分</text></view>
+  <view class='zan-c-gray-dark zan-font-14' style="padding:  0 10px 10px 10px;;">订单状态:
+    <text>待支付</text>
+    <text style='display:inline-block;'></text>支付剩余23时55分</view>
+  <view class='zan-c-gray-dark zan-font-14' style="padding: 0 10px 10px  10px;">订单状态:
+    <text>待支付</text>
+    <text style='display:inline-block;'></text>支付剩余23时55分</view>
+</view>
+<view class='pay_now'>
+  <view class="zan-panel" style='margin-top:0px;'>
+    <button class="zan-btn ">去支付</button>
+    <view class="zan-row">
+      <view class="zan-col zan-col-12">
+        <button class="zan-btn">重新下单</button>
+      </view>
+      <view class="zan-col zan-col-12">
+        <button class="zan-btn zan-col-offset-1">申请取消订单</button>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='ddxq_mess zan-font-14'>
+<view> <text class='shop_menoy'>商品金额：</text> <text style='color:#ff9501;'>155.00</text><text class='shop_menoy'>（在线支付）</text></view>
+<view> <text  class='shop_menoy'>收货地址：</text><text>陕西西安市雁塔区丈八沟街道</text></view>
+<view><text  class='shop_menoy'>收货人：</text><text>张三 15223654457</text></view>
+<view><text class='shop_menoy'>配送方式：</text><text>普通快递72595236422</text></view>
+</view>
+<view class='ddxq_mess zan-font-14'>
+<view> <text  class='shop_menoy'>收货地址：</text><text>陕西西安市雁塔区丈八沟街道</text></view>
+<view><text  class='shop_menoy'>收货人：</text><text>张三 15223654457</text></view>
+<view><text class='shop_menoy'>配送方式：</text><text>普通快递72595236422</text></view>
+</view>
+<view class="zan-panel" style='margin-top:0px;'>
+    <view class="zan-cell">
+      <view class="zan-cell__bd">多行列表</view>
+    </view>
+  </view>
+  <view class="zan-panel"  style='margin-top:0px;'>
+   <view class="zan-card">
+   <view class="zan-card__thumb">
+        <image class="zan-card__img"
+          src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
+          mode="aspectFit"
+        ></image>
+      </view>
+      <view class="zan-card__detail">
+        <view class="zan-card__detail-row">
+          <view class="zan-card__right-col">¥ 999.99</view>
+          <view class="zan-card__left-col zan-ellipsis--l2">
+             红烧牛肉【虚拟商品】【有库存】【有sku】
+          </view>
+        </view>
+
+        <view class="zan-card__detail-row zan-c-gray-darker">
+          <view class="zan-card__right-col">x2</view>
+          <view class="zan-card__left-col">
+            3000克 50%
+          </view>
+        </view>
+
+        <view class="zan-card__detail-row zan-c-gray-darker">
+          <view class="zan-card__left-col zan-c-red">已发货</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel"  style='margin-top:0px;'>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">多行列表</view>
+      <view class="zan-cell__ft">详细信息</view>
+    </view>
+  </view>
+  <view class="zan-panel" style='margin-top:0px;'>
+    <view class="zan-cell">
+      <view class="zan-cell__bd">多行列表</view>
+      <view class="zan-cell__ft">详细信息</view>
+    </view>
+  </view>
+  <view class='contect'>
+   <view class="zan-row">
+      <view class="zan-col zan-col-12">
+        <button class="zan-btn">联系卖家</button>
+      </view>
+      <view class="zan-col zan-col-12">
+        <button class="zan-btn zan-col-offset-1">拨打电话</button>
+      </view>
+    </view>
+  </view>

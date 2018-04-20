@@ -1,0 +1,6 @@
+<import src="../../zanui/dist/tab/index.wxml" />
+  <view >
+    <template
+      is="zan-tab"
+      data="{{ ...tab1, componentId: 'tab1' }}"></template>
+  </view>

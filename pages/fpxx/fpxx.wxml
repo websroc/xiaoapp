@@ -1,0 +1,91 @@
+<view class='fplx'>
+   <view class="zan-panel mt0" >
+    <view class="zan-cell">
+      <view class="zan-cell__bd">发票类型</view>
+      <view class="zan-cell__ft">须知</view>
+    </view>
+</view>
+<view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">普通发票</view>
+        <view class="zan-cell__desc">京东部分试点地区仅提供电子普通发票，具体以实际出具为
+准。</view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">发票</view>
+        <view class="zan-cell__desc">京东部分试点地区仅提供电子普通发票，具体以实际出具为
+准。</view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">普通发票</view>
+        <view class="zan-cell__desc">京东部分试点地区仅提供电子普通发票，具体以实际出具为
+准。</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='fplx'>
+   <view class="zan-panel" >
+    <view class="zan-cell">
+      <view class="zan-cell__bd">发票类型</view>
+    </view>
+</view>
+<view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">个人</view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">发票</view>
+        <view class="zan-cell__desc">京东部分试点地区仅提供电子普通发票，具体以实际出具为
+准。</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='fplx'>
+   <view class="zan-panel" >
+    <view class="zan-cell">
+      <view class="zan-cell__bd">发票类型</view>
+    </view>
+</view>
+<view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">个人</view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+     <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">发票</view>
+        <view class="zan-cell__desc">京东部分试点地区仅提供电子普通发票，具体以实际出具为
+准。</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='submiys'>
+ <button class="zan-btn ">提交</button>
+</view>

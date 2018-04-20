@@ -1,0 +1,32 @@
+.vip_section {
+  background: #fff;
+  padding: 20rpx 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.vip_tq text {
+  font-size: 26rpx;
+  margin-left: 10rpx;
+  color: #000;
+}
+.vip_title {
+  font-size: 36rpx;
+  color: #353535;
+  line-height: 65rpx;
+  margin-bottom: 10rpx;
+}
+.vip_intro {
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+.vip_titlese {
+  color: #888888;
+  font-size: 28rpx;
+}
+.vip_title image {
+  width:65rpx;
+  height: 65rpx;
+  margin-right:10rpx; 
+  vertical-align: middle;
+}

@@ -1,0 +1,9 @@
+.com_intro {
+  background-color: #fff;
+  padding: 0 42rpx;
+}
+.com_intro text {
+  color: #353535;
+  font-size: 26rpx;
+  text-indent: 52rpx;
+}
