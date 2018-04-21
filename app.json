@@ -25,7 +25,9 @@
     "pages/shdz/shdz",
     "pages/shoucang/shoucang",
     "pages/vippol/vippol",
-    "pages/youhui/youhui"
+    "pages/youhui/youhui",
+    "pages/pjxq/pjxq",
+    "pages/spxq/spxq"
   ],
   "window":{
     "backgroundTextStyle":"light",

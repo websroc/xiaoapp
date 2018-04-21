@@ -1,0 +1,29 @@
+page {
+  position: relative;
+}
+.stars{
+    /* background-image: url("http://m.dev.vd.cn/static/xcx/v1/goo/star(灰)@1.5x.png"); */
+    width: 43rpx;
+    height: 43rpx;
+    background-size: 43rpx 43rpx;
+    margin-left: 0rpx;
+}
+.on{
+    /* background-image: url("http://m.dev.vd.cn/static/xcx/v1/goo/star@1.5x.png"); */
+    width: 43rpx;
+    height: 43rpx;
+    background-size: 43rpx 43rpx;
+    /*margin-left: 10px;*/
+}
+.comment1-description1 {
+  margin-right: 40rpx;
+}
+.pj_time {
+  color: #888888;
+  font-size: 24rpx;
+  margin-top:10rpx; 
+}
+/*购物车、立即购买  */
+.tcar_pay {
+  position: fixed;
+}

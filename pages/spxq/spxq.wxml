@@ -1,0 +1,115 @@
+<import src="../../zanui/dist/tab/index.wxml" />
+<view class='full_page'>
+<!--轮播图  -->
+  <view class='spxq_bg'>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style='width:750rpx;height:714rpx;' />
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<!--商品介绍  -->
+<view class='shop_intro'>
+  <view class="zan-panel zan-panel--without-border">
+    <view class='word_intro'>安康名茶 当年新茶 富硒红茶 一茗红150g </view>
+    <view class='price_shop'>￥220 <text class='zan-text-deleted'>￥275</text><view class="zan-tag zan-tag--danger">8折</view></view>
+    <view class="zan-row">
+  <view class="zan-col zan-col-8" style='text-align: left;'>
+    快递: 0.00
+  </view>
+  <view class="zan-col zan-col-8" style='text-align: center;'>
+   月销500笔
+  </view>
+  <view class="zan-col zan-col-8" style='text-align: right;'>
+    陕西安康
+  </view>
+</view>
+  </view>
+</view>
+</view>
+<!--  -->
+<view class='full_page'>
+  <view class="zan-cell__bd">
+        <view class="zan-cell__text">
+          <text class='vip_state'>领券</text>
+          <text class='intr_text'>
+          <text class="zan-tag zan-tag--danger">积分</text>购买可得54积分</text>
+        </view>
+   </view>
+   <view class="zan-cell__bd">
+        <view class="zan-cell__text" style='margin-left:60rpx;'>
+        <text class='intr_text'>
+          <text class="zan-tag zan-tag--danger" >促销</text>满一件，领超值赠品（赠完为止）</text>
+        </view>
+   </view>
+</view>
+<view class='full_page'>
+ <view class="zan-panel zan-panel--without-border zan-cell--access">
+    <view class="zan-cell zan-cell--access" style='padding:12rpx 0;'>
+       <text class='vip_state' style='padding-right:30rpx;'>领券</text>
+       <text class='intr_text'>购买可得54积分</text>
+    </view>
+  </view>
+</view>
+
+<view class='full_page'>
+ <view class="zan-panel zan-panel--without-border zan-cell--access" >
+    <view class="zan-cell zan-cell--access" >
+       <text class='vip_state' style='padding-right:30rpx;'>领券</text>
+       <text class='intr_text'>购买可得54积分</text>
+    </view>
+  </view>
+</view>
+<view class='full_page'>
+ <view class='pjxq_lis'>
+  <view class="zan-panel mt0">
+  <view class="zan-cell">
+      <view class="zan-cell__bd">单行列表</view>
+      <view class="zan-cell__ft">详细信息</view>
+    </view>
+    <view class="zan-cell">
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">
+          <view class="star-pos" style="display:flex;flex-direction:row;">
+            <view class="comment1-description1">张三</view>
+            <view class="stars  {{flag0>=1? 'on': ''}}" bindtap="changeColor1" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=2? 'on': ''}}" bindtap="changeColor2" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=3? 'on': ''}}" bindtap="changeColor3" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=4? 'on': ''}}" bindtap="changeColor4" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=5? 'on': ''}}" bindtap="changeColor5" style="background-image: url('../../images/wujx.png')">
+            </view>
+          </view>
+        </view>
+        <view class="zan-cell__text">准备送人的，感觉挺有档次。</view>
+        <view class="section__ctn" >
+          <image style="width: 138rpx; height: 138rpx;" mode="scaleToFill" src="../../images/pjtp.jpg"></image>
+         </view>
+         <view class="zan-cell__text pj_time "> <text>2018-03-05</text> 丨<text>无农残、富硒红茶150g</text></view>
+      </view>
+    </view>
+  </view>
+    <view class="zan-cell zan-cell--access">
+      <view class="zan-cell__bd">单行列表</view>
+      <view class="zan-cell__ft"></view>
+    </view>
+</view>
+</view>
+
+<view class='full_page'>
+  <view class="pjxq_tab">
+  <view>
+    <template is="zan-tab" data="{{ ...tab1, componentId: 'tab1' }}"></template>
+  </view>
+   <view class='img_intro'>
+    <image src='../../images/spjs.jpg' ></image>
+   <image src='../../images/spjs2.jpg' ></image>
+   </view>
+</view>
+</view>

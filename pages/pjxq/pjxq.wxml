@@ -1,0 +1,106 @@
+<import src="../../zanui/dist/tab/index.wxml" />
+<!--tab区  -->
+<view class="pjxq_tab">
+  <view>
+    <template is="zan-tab" data="{{ ...tab1, componentId: 'tab1' }}"></template>
+  </view>
+</view>
+
+<!--评价区  -->
+<view class='pjxq_lis'>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">
+          <view class="star-pos" style="display:flex;flex-direction:row;">
+            <view class="comment1-description1">张三</view>
+            <view class="stars  {{flag0>=1? 'on': ''}}" bindtap="changeColor1" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=2? 'on': ''}}" bindtap="changeColor2" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=3? 'on': ''}}" bindtap="changeColor3" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=4? 'on': ''}}" bindtap="changeColor4" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=5? 'on': ''}}" bindtap="changeColor5" style="background-image: url('../../images/wujx.png')">
+            </view>
+          </view>
+        </view>
+        <view class="zan-cell__text">准备送人的，感觉挺有档次。</view>
+        <view class="section__ctn" >
+          <image style="width: 138rpx; height: 138rpx;" mode="scaleToFill" src="../../images/pjtp.jpg"></image>
+         </view>
+         <view class="zan-cell__text pj_time "> <text>2018-03-05</text> 丨<text>无农残、富硒红茶150g</text></view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">
+          <view class="star-pos" style="display:flex;flex-direction:row;">
+            <view class="comment1-description1">张三</view>
+            <view class="stars  {{flag0>=1? 'on': ''}}" bindtap="changeColor1" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=2? 'on': ''}}" bindtap="changeColor2" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=3? 'on': ''}}" bindtap="changeColor3" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=4? 'on': ''}}" bindtap="changeColor4" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=5? 'on': ''}}" bindtap="changeColor5" style="background-image: url('../../images/wujx.png')">
+            </view>
+          </view>
+        </view>
+        <view class="zan-cell__text">准备送人的，感觉挺有档次。</view>
+        <view class="section__ctn" >
+          <image style="width: 138rpx; height: 138rpx;" mode="scaleToFill" src="../../images/pjtp.jpg"></image>
+         </view>
+         <view class="zan-cell__text pj_time "> <text>2018-03-05</text> 丨<text>无农残、富硒红茶150g</text></view>
+      </view>
+    </view>
+  </view>
+  <view class="zan-panel mt0">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">
+        <view class="zan-cell__text">
+          <view class="star-pos" style="display:flex;flex-direction:row;">
+            <view class="comment1-description1">张三</view>
+            <view class="stars  {{flag0>=1? 'on': ''}}" bindtap="changeColor1" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=2? 'on': ''}}" bindtap="changeColor2" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=3? 'on': ''}}" bindtap="changeColor3" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=4? 'on': ''}}" bindtap="changeColor4" style="background-image: url('../../images/wujx.png')">
+            </view>
+            <view class="stars  {{flag0>=5? 'on': ''}}" bindtap="changeColor5" style="background-image: url('../../images/wujx.png')">
+            </view>
+          </view>
+        </view>
+        <view class="zan-cell__text">准备送人的，感觉挺有档次。</view>
+        <!-- <view class="section__ctn" >
+          <image style="width: 138rpx; height: 138rpx;" mode="scaleToFill" src="../../images/pjtp.jpg"></image>
+         </view> -->
+         <view class="zan-cell__text pj_time "> <text>2018-03-05</text> 丨<text>无农残、富硒红茶150g</text></view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--购物车收藏  -->
+<view class="tcar_pay">
+  <view class="zan-row">
+  <view class="zan-col zan-col-6">
+    span: 8
+  </view>
+  <view class="zan-col zan-col-6">
+    span: 8
+  </view>
+  <view class="zan-col zan-col-6">
+    span: 8
+  </view>
+  <view class="zan-col zan-col-6">
+    span: 8
+  </view>
+</view>
+</view>

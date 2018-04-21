@@ -1,0 +1,76 @@
+
+.full_page{
+  background-color: #fff;
+  padding: 0 25rpx 15rpx 25rpx;
+  margin-bottom: 20rpx;
+}
+.spxq_bg {
+  margin-top: 10rpx;
+}
+.spxq_bg swiper {
+  width: 100%;
+  height: 711rpx;
+}
+.word_intro {
+  font-size: 30rpx;
+}
+.price_shop {
+  font-size: 32rpx;
+  color: #e64340;
+  margin: 10rpx 0;
+}
+.zan-text-deleted {
+  font-size: 28rpx;
+  color: #888888;
+  padding: 0 20rpx;
+}
+.zan-row {
+  text-align: left;
+  color: #888;
+  font-size: 28rpx;
+}
+.vip_state {
+  font-size: 30rpx;
+  color: #888;
+}
+.zan-tag {
+  margin: 0 30rpx;
+}
+.zan-cell__text {
+  padding: 20rpx 0 0 0;
+}
+page {
+  position: relative;
+}
+.stars{
+    /* background-image: url("http://m.dev.vd.cn/static/xcx/v1/goo/star(灰)@1.5x.png"); */
+    width: 43rpx;
+    height: 43rpx;
+    background-size: 43rpx 43rpx;
+    margin-left: 0rpx;
+}
+.on{
+    /* background-image: url("http://m.dev.vd.cn/static/xcx/v1/goo/star@1.5x.png"); */
+    width: 43rpx;
+    height: 43rpx;
+    background-size: 43rpx 43rpx;
+    /*margin-left: 10px;*/
+}
+.comment1-description1 {
+  margin-right: 40rpx;
+}
+.pj_time {
+  color: #888888;
+  font-size: 24rpx;
+  margin-top:10rpx; 
+}
+/*购物车、立即购买  */
+.tcar_pay {
+  position: fixed;
+}
+.img_intro {
+  padding-top: 20rpx;
+}
+.img_intro image{
+  width: 696rpx;
+}
