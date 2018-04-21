@@ -5,3 +5,62 @@
  <view class="vip_titlese">{{item.threeti}}</view>
  <view class="vip_titlese">{{item.fourti}}</view>
 </view>
+<view class='vip_section'>
+<view class='vip_tq'>
+  <image src='../../images/vip1.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>
+  <text>会员等级</text>
+  <view class='vip_baner'>
+      <view class='gold_vip'>
+        <view class='gold_vip_text'>
+          金卡会员
+        </view>
+        <view class='gold_trvip_text'>
+          2500分以上
+        </view>
+        <view class='vip_img'>
+          <image src='../../images/vip123.png'></image>
+        </view>
+      </view>
+  </view>
+  <view class='vip_baner'>
+      <view class='silver_vip'>
+        <view class='gold_vip_text'>
+          金卡会员
+        </view>
+        <view class='gold_trvip_text'>
+          2500分以上
+        </view>
+        <view class='vip_img'>
+          <image src='../../images/vip123.png'></image>
+        </view>
+      </view>
+  </view>
+  <view class='vip_baner'>
+      <view class='normal_vip'>
+        <view class='gold_vip_text'>
+          金卡会员
+        </view>
+        <view class='gold_trvip_text'>
+          2500分以上
+        </view>
+        <view class='vip_img'>
+          <image src='../../images/vip123.png'></image>
+        </view>
+      </view>
+  </view>
+</view>
+</view>
+<view class='charge'>
+  <view class='vip_tq'>
+  <image src='../../images/vip2.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>
+  <text>积分、充值送礼等促销活动</text>
+</view>
+<view class="section section_flexs" style="background:#fff;">
+     <view class="section section_gap" wx:for="{{arrayVip}}" wx:key="item">
+      <view class="section__ctn" >
+        <image style="width: 92rpx; height:68rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+      </view>
+      <button class='jifentext' bindtap="setLoading">{{item.text}}</button>
+      </view>
+</view>
+</view>

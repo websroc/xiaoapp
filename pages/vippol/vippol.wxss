@@ -10,7 +10,7 @@
   color: #000;
 }
 .vip_title {
-  font-size: 36rpx;
+  font-size: 34rpx;
   color: #353535;
   line-height: 65rpx;
   margin-bottom: 10rpx;
@@ -29,4 +29,87 @@
   height: 65rpx;
   margin-right:10rpx; 
   vertical-align: middle;
+}
+.vip_baner {
+  padding: 27rpx 27rpx 0 27rpx;
+  overflow: hidden;
+}
+.gold_vip, .silver_vip, .normal_vip {
+   width:614rpx;
+   height: 208rpx;
+   padding: 20rpx;
+   border-radius:10rpx; 
+   position: relative;
+   background: linear-gradient(to  bottom, #eec478 , #df8f2e);
+}
+ .silver_vip {
+   background: linear-gradient(to  bottom, #58585a , #2b2b2b);
+ }
+  .normal_vip {
+   background: linear-gradient(to  bottom, #14c2a4 , #068771);
+ }
+ .gold_vip_text {
+    color: #fff;
+ }
+ .gold_trvip_text {
+   color: #fff;
+   margin-top: 15rpx;
+   font-size: 26rpx;
+ }
+ .vip_img {
+    position: absolute;
+    top: 61rpx;
+    right: 36rpx;
+ }
+  .vip_img image{
+    width: 137rpx;
+    height:127rpx;
+  }
+  .charge {
+    background-color: #fff;
+    padding: 15rpx;
+  }
+  .section_flexs {
+display: flex;
+padding: 15rpx 0;
+margin: 15rpx 0;
+}
+.section_gap {
+  flex: 5;
+
+}
+.section_gap {
+  flex: 5;
+}.section__ctn {
+  text-align: center
+}
+.vip_section {
+  background: #fff;
+  padding: 20rpx 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.vip_tq text {
+  font-size: 26rpx;
+  margin-left: 10rpx;
+  color: #000;
+}
+.vip_intro {
+  padding-left: 20rpx;
+}
+.vip_title {
+  font-size: 26rpx;
+  color: #353535;
+}
+.jifentext {
+  font-size: 24rpx;
+  color: #353535;
+  width:114rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  padding:0;
+  background: #fff;
+}
+.jifentext::after{
+  border: 1rpx solid #d39400;
 }
