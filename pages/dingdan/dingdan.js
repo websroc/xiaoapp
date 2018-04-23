@@ -22,7 +22,6 @@ Page(extend({}, Tab, {
       selectedId: 'all'
     }
   },
-
   handleZanTabChange(e) {
     var componentId = e.componentId;
     var selectedId = e.selectedId;

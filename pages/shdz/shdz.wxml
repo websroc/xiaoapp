@@ -11,8 +11,8 @@
     <view class="zan-cell">
       <view class="zan-cell__icon zan-icon zan-icon-checked" style="color:#ff9600;"></view>
       <view class="zan-cell__bd">默认地址</view>
-      <view class="zan-cell__ft">编辑</view>
-      <view class="zan-cell__ft">删除</view>
+      <view class="zan-cell__ft"> <image src='../../images/edit.png'></image> 编辑</view>
+      <view class="zan-cell__ft"> <image src='../../images/delete.png'></image> 删除</view>
     </view>
   </view>
   <view class='tjxdz'>

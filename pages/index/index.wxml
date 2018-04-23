@@ -59,10 +59,12 @@
 
 <!--会员  -->
 <view class='vip_section'>
+<navigator url="../vippol/vippol">
 <view class='vip_tq'>
   <image src='../../images/vip1.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>
   <text>会员特权</text>
 </view>
+</navigator>
  <view class="section section_flexs" style="background:#fff;">
      <view class="section section_gap" wx:for="{{arrayVip}}" wx:key="item">
       <view class="section__ctn" >

@@ -5,3 +5,8 @@
   background-color: #ff9600;
   color: #fff;
 }
+.zan-cell__ft image {
+  width:40rpx;
+  height: 35rpx;
+  vertical-align: middle;
+}

@@ -26,8 +26,10 @@
     "pages/shoucang/shoucang",
     "pages/vippol/vippol",
     "pages/youhui/youhui",
-    "pages/pjxq/pjxq",
-    "pages/spxq/spxq"
+    "pages/spxq/spxq",
+     "pages/addaddress/addaddress",
+    "pages/pjxq/pjxq"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
