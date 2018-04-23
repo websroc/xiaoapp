@@ -84,7 +84,7 @@ App({
       },
       fail: function (e) {
         wx.showToast({
-          title: '网络异常！err:getsessionkeys',
+          // title: '网络异常！err:getsessionkeys',
           duration: 2000
         });
       },
@@ -137,8 +137,8 @@ App({
       },
       fail: function (e) {
         wx.showToast({
-          title: '网络异常！err:authlogin',
-          duration: 2000
+          // title: '网络异常！err:authlogin',
+          // duration: 2000
         });
       },
     });
@@ -199,7 +199,7 @@ App({
       },
       fail: function (e) {
         wx.showToast({
-          title: '网络异常！',
+          // title: '网络异常！',
           duration: 2000
         });
       }
@@ -243,7 +243,7 @@ App({
       },
       fail: function (e) {
         wx.showToast({
-          title: '网络异常！',
+          // title: '网络异常！',
           duration: 2000
         });
         return false;
@@ -311,7 +311,7 @@ App({
       },
       fail: function (e) {
         wx.showToast({
-          title: '网络异常！err:bindTaps',
+          // title: '网络异常！err:bindTaps',
           duration: 2000
         });
       },

@@ -1,5 +1,5 @@
 <!-- 轮播图 -->
-<swiper style='height:408rpx;' indicator-dots="{{indicatorDots}}"  interval="{{interval}}" duration="{{duration}}">
+<swiper style='height:408rpx;' indicator-dots="{{indicatorDots}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
       <image src="{{item}}" style='width:750rpx; height:408rpx;' class="slide-image" />
@@ -8,36 +8,36 @@
 </swiper>
 
 <view class="section section_flexs" style="background-image: url('../../images/02.jpg')">
-     <view wx:for="{{array}}" wx:key="item" bindtap='linkOne'  class="section section_gap " data-id="{{item.name}}" >
-      <view class="section__ctn" >
-        <image style="width: 95rpx; height:95rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
-      </view>
-      <view class="section__title">{{item.text}}</view>
-      </view>
+  <view wx:for="{{array}}" wx:key="item" bindtap='linkOne' class="section section_gap " data-id="{{item.name}}">
+    <view class="section__ctn">
+      <image style="width: 95rpx; height:95rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+    </view>
+    <view class="section__title">{{item.text}}</view>
+  </view>
 </view>
 <view>
- <image style='width:750rpx;height:152rpx;' src='../../images/banner2s.png'></image>
+  <image style='width:750rpx;height:152rpx;' src='../../images/banner2s.png'></image>
 </view>
 <view class="zan-panel">
-   <view class="zan-card">
-   <view class="zan-card__thumb">
-        <image class="zan-card__img"
-          src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg"
-          mode="aspectFit"
-        ></image>
-      </view>
-      <view class="zan-card__detail">
-        <view class="zan-card__detail-row">
+  <view class="zan-card">
+    <view class="zan-card__thumb">
+      <image class="zan-card__img" src="https://img.yzcdn.cn/upload_files/2016/11/25/FpqPXlrMRjKwJs8VdTu3ZDJCj4j5.jpeg?imageView2/2/w/200/h/200/q/90/format/jpeg" mode="aspectFit"></image>
+    </view>
+    <view class="zan-card__detail">
+      <view class="zan-card__detail-row">
         <view class="zan-ellipsis--l2">
-             红烧牛肉【虚拟商品】【有库存】【有sku】
-          </view>
-          <view class="zan-card__left-col">¥ 999.99 <text>直降5元</text><text>8.5折</text></view>
-          
+          红烧牛肉【虚拟商品】【有库存】【有sku】
         </view>
-        <view class="zan-card__detail-row zan-c-gray-darker">
-          <view class="zan-card__left-col zan-c-red">
+        <view class="zan-card__left-col">¥ 999.99
+          <text>直降5元</text>
+          <text>8.5折</text>
+        </view>
+
+      </view>
+      <view class="zan-card__detail-row zan-c-gray-darker">
+        <view class="zan-card__left-col zan-c-red">
           购物车</view>
-        </view>
       </view>
     </view>
-      </view>
+  </view>
+</view>

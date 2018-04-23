@@ -9,8 +9,40 @@ Page({
     info: {},
     userType: 0,
     url: '',
+    array: [{
+      name: 'redtea',
+      mode: 'scaleToFill',
+      text: '待付款',
+      src: '../../images/daifk.png'
+    }, {
+      name: 'greentea',
+      mode: 'scaleToFill',
+      text: '待发货',
+      src: '../../images/daifh.png'
+    }, {
+      name: 'blacktea',
+      mode: 'scaleToFill',
+      text: '待收货',
+      src: '../../images/daish.png'
+    }, {
+      name: 'bluetea',
+      mode: 'scaleToFill',
+      text: '待评价',
+      src: '../../images/daipj.png'
+    }, {
+      name: 'teatool',
+      mode: 'scaleToFill',
+      text: '售后/退款',
+      src: '../../images/shouhtk.png'
+    }
+    ],
   },
-
+  linkOne: function (e) {
+    var ids = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: "../" + ids + "/" + ids
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -42,3 +42,22 @@ view {
 }
 
 /* 底部 */
+.section_flexs {
+display: flex;
+padding: 15rpx 0;
+margin: 15rpx 0;
+}
+.section_gap {
+  flex: 5;
+}
+.section__ctn {
+  text-align: center
+}
+.section__title {
+  text-align: center;
+  font-size: 26rpx;
+  color: #353535;
+}
+.new_section {
+  background: #fff;
+}

@@ -22,6 +22,14 @@
       <view class="zan-cell__bd">查看订单</view>
       <view class="zan-cell__ft">全部订单</view>
     </view>
+    <view class="section section_flexs">
+     <view wx:for="{{array}}" wx:key="item" bindtap='linkOne'  class="section section_gap " data-id="{{item.name}}" >
+      <view class="section__ctn" >
+        <image style="width: 95rpx; height:95rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+      </view>
+      <view class="section__title">{{item.text}}</view>
+      </view>
+</view>
   </navigator>
 </view>
 <view class="zan-panel">
