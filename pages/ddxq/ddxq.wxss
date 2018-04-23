@@ -1,32 +1,52 @@
 .pay_now {
   background-color: #fff;
-  padding:20rpx;
+  padding: 20rpx;
 }
-.pay_now button{
-  margin-top:0;
+
+.pay_now button {
+  margin-top: 0;
   background-color: #ff9600;
   color: #fff;
   border-radius: 8px;
 }
+
 .zan-col button {
-  background-color: #eeeeee;
+  background-color: #eee;
   color: #353535;
 }
+
 .ddxq_mess {
   margin: 20rpx 0;
   background-color: #fff;
   padding: 25rpx;
 }
+
 .ddxq_mess .shop_menoy {
-  color: #888888;
+  color: #888;
 }
+
 .contect {
   margin: 10rpx 0;
   padding: 25rpx;
   background-color: #fff;
 }
+
 .contect view button {
   border: 1px solid #b2b2b2;
   border-radius: 16rpx;
   background-color: #fff;
+}
+
+.pay_time {
+  float: right;
+}
+
+.pay_time image {
+  width: 42rpx;
+  height: 42rpx;
+  vertical-align: middle;
+}
+
+.ddxq_mess text{
+ padding: 10rpx 0;
 }

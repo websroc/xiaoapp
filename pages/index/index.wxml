@@ -10,7 +10,7 @@
 <!--介绍&定位  -->
 <view class="section">
   <view class="flex-wrp" style="flex-direction:row;background:#fff;">
-  <navigator url="../record/record" style='width:50%; margin:16rpx 0;position: relative;'>
+  <navigator url="../ddxq/ddxq" style='width:50%; margin:16rpx 0;position: relative;'>
     <view class="flex-item" style="margin-left:30rpx;">
       茶馆简介
       <text>开放时间、茶社介绍</text>
