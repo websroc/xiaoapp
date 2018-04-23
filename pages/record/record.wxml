@@ -6,10 +6,11 @@
   </view>
 </view>
 <view class='com_intro'>
-  <text>  平利县一茗茶业有限责任公司（简称“平利一茗”）属平利县的重点招商引资项目，主要从事陕南黑茶（茯茶）、红茶、绿茶和绞股蓝的研发与生产，2017 年成立了西安一茗实业有限公司，同时在西安市高新路开设了400 平米的线下体验店，专门负责公司的形象展示和品牌宣传。</text>
-
-  <view style='text-align:center;'>
-    <image style="width:466rpx;height:310rpx;" mode="center" src="../../images/01.jpg"></image>
+<view style='text-indent: 52rpx;'>
+  <text>平利县一茗茶业有限责任公司（简称“平利一茗”）属平利县的重点招商引资项目，主要从事陕南黑茶（茯茶）、红茶、绿茶和绞股蓝的研发与生产，2017 年成立了西安一茗实业有限公司，同时在西安市高新路开设了400 平米的线下体验店，专门负责公司的形象展示和品牌宣传。</text>
+</view>
+  <view style='text-align:center; margin-top:12rpx;'>
+    <image style="width:468rpx;height:310rpx;" mode="center" src="../../images/01.jpg"></image>
   </view>
   <view>
     <text>生产厂家：平利县一茗茶业有限责任公司</text>
@@ -23,13 +24,13 @@
   <view>
     <text>电话：13513513513</text>
   </view>
-  <view style='text-align:center;'>
-    <image style="width:466rpx;height:310rpx;" mode="center" src="../../images/01.jpg"></image>
+  <view style='text-align:center;  margin-top:12rpx;'>
+    <image style="width:468rpx;height:310rpx;" mode="center" src="../../images/01.jpg"></image>
   </view>
   <view>
     <text>喝茶的好处</text>
   </view>
-   <view>
-    <text>       研究发现，茶叶中含有一种名为“儿茶素”的抗氧化剂，可以增加身体燃烧脂肪的能力，改善肌肉耐力，有助于对抗疲劳，增加体育锻炼的时间。常喝绿茶，效果最为显著。</text>
+   <view  style='text-indent: 52rpx;'>
+    <text>研究发现，茶叶中含有一种名为“儿茶素”的抗氧化剂，可以增加身体燃烧脂肪的能力，改善肌肉耐力，有助于对抗疲劳，增加体育锻炼的时间。常喝绿茶，效果最为显著。</text>
   </view>
 </view>
