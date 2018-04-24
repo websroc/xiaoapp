@@ -5,9 +5,9 @@ var app = getApp();
 Page({
   data: {
      showModalStatus: false,  //先设置隐藏
-     imgUrls: ["../../images/01.jpg", ],
-     indicatorDots: true,
-     autoplay: true,
+     imgUrls: ["../../images/05.jpg", ],
+     indicatorDots: false,
+     autoplay: false,
      interval: 4000,
      duration: 1000,
      circular: true,
@@ -44,6 +44,38 @@ Page({
          mode: 'scaleToFill',
          text: '茶具',
          src: '../../images/teatool.png'
+       }
+     ],
+     teaHome: [
+       {
+         mode: 'scaleToFill',
+         goodsname: '三人大雅茶室，免预约',
+         teaNumbers:"01",
+         price: '￥270',
+         oldPlrice:"￥380",
+         sales: '已销20',
+         src: '../../images/tj1.jpg',
+         getgoods:"点击购买>>"
+       },
+       {
+         mode: 'scaleToFill',
+         goodsname: '三人大雅茶室，免预约',
+         teaNumbers: "02",
+         price: '￥270',
+         oldPlrice: "￥380",
+         sales: '已销20',
+         src: '../../images/tj2.jpg',
+         getgoods: "点击购买>>"
+       },
+       {
+         mode: 'scaleToFill',
+         goodsname: '三人大雅茶室，免预约',
+         teaNumbers: "03",
+         price: '￥270',
+         oldPlrice: "￥380",
+         sales: '已销20',
+         src: '../../images/tj3.jpg',
+         getgoods: "点击购买>>"
        }
      ],
      arraylis:[

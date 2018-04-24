@@ -1,4 +1,4 @@
-<!--index.wxml-->
+<!-- index.wxml
 <!-- 轮播图 -->
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
@@ -9,7 +9,7 @@
 </swiper>
 <!--介绍&定位  -->
 <view class="section">
-  <view class="flex-wrp" style="flex-direction:row;background:#fff;">
+  <!-- <view class="flex-wrp" style="flex-direction:row;background:#fff;">
   <navigator url="../fpxx/fpxx" style='width:50%; margin:16rpx 0;position: relative;'>
     <view class="flex-item" style="margin-left:30rpx;">
       茶馆简介
@@ -24,20 +24,61 @@
     陕西省西安市科技六路
     </view>
     </navigator>
+  </view> -->
+  <view class='tea_banner'>
+    <image src='../../images/banners.png'></image>
+  </view>
+  <!--茶馆简介  -->
+  <view class='tea_intro'>
+    <navigator hover-class="none" url='./record/record'>
+      <text>点击进入>></text>
+    </navigator>
+  </view>
+  <!--一名茶室  -->
+  <view class='tea_yiming'>
+    <image src='../../images/yimingchashi.png'></image>
+    <view class='tea_list'>
+      <view class='tealit' wx:for="{{teaHome}}" wx:key="item">
+        <view class='goods_teapic'>
+          <image mode="{{item.mode}}" src="{{item.src}}"></image>
+        </view>
+        <view class='tea_intros'>
+        <view class="home_number">{{item.teaNumbers}}</view>
+          <view class="home_goodsname">{{item.goodsname}}</view>
+          <view class="home_sales">{{item.sales}}</view>
+          <view class="home_price">{{item.price}}<text class='zan-text-deleted'> {{item.oldPlrice}}</text></view>
+          <view class="getgoods">{{item.getgoods}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='newgoods_tuij'>
+    <image src='../../images/yimingchashi.png'></image>
+    <view class='tealis'>
+       <view class='tealist' wx:for="{{arraylis}}" wx:key="item">
+    <view class='goodspic'>
+       <navigator url='../spxq/spxq'><image style="width: 334rpx; height:210rpx;" mode="{{item.mode}}" src="{{item.src}}"></image> </navigator>
+    </view>
+    <view class="section__goodsname">{{item.goodsname}}</view>
+    <view class="section__price">{{item.price}}</view>
+    <view class="section__sales">{{item.sales}}</view>
+   
+  </view>
+    </view>
   </view>
 </view>
 
-<view class="section section_flexs" style="background-image: url('../../images/02.jpg')">
+<!-- <view class="section section_flexs" style="background-image: url('../../images/02.jpg')">
      <view wx:for="{{array}}" wx:key="item" bindtap='linkOne'  class="section section_gap " data-id="{{item.name}}" >
       <view class="section__ctn" >
         <image style="width: 95rpx; height:95rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
       </view>
       <view class="section__title">{{item.text}}</view>
       </view>
-</view>
+</view> -->
 <!--新品推荐  -->
 
-<view class='section new_section' style='margin-bottom:20rpx;'>
+<!-- <view class='section new_section' style='margin-bottom:20rpx;'>
   <view class='banner_img'>
     <image src='../../images/banner.png' style='width:370rpx;height:70rpx;'></image>
   </view>
@@ -55,10 +96,10 @@
   </view>
 
  </view>
-</view>
+</view> -->
 
 <!--会员  -->
-<view class='vip_section'>
+<!-- <view class='vip_section'>
 <navigator url="../vippol/vippol">
 <view class='vip_tq'>
   <image src='../../images/vip1.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>
@@ -92,9 +133,4 @@
       <button class='jifentext' bindtap="setLoading">{{item.text}}</button>
       </view>
 </view>
-</view>
-
-
-
-
-
+</view>  -->

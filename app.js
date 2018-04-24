@@ -1,7 +1,7 @@
 //app.js
 App({
   api: {
-     hostUrl: 'http://127.0.0.1/miniwzcd/index.php',
+    hostUrl: 'http://127.0.0.1/miniwzcd/index.php',
     userType: 1,
     userId: 0,
     ppileid: 0,

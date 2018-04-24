@@ -5,7 +5,7 @@ page {
 
 swiper {
   width: 750rpx;
-  height: 360rpx;
+  height: 522rpx;
   margin: 0 auto;
   margin-top: 0rpx;
   background: #fff;
@@ -18,9 +18,85 @@ swiper {
 
 .slide-image {
   width: 750rpx;
-  height: 360rpx;
+  height: 522rpx;
 }
-
+/*新  */
+.tea_banner {
+  width:750rpx;
+  height: 175rpx;
+}
+.tea_banner image{
+   width:672rpx;
+  height: 152rpx;
+}
+.tea_intro {
+  text-align: center;
+  font-size: 30rpx;
+  color: #b41203;
+  font-weight: 600;
+}
+/*一名茶室  */
+.tea_yiming image {
+  width: 672rpx;
+  height:120rpx;
+}
+ .tea_list {
+  padding: 0 40rpx;
+} 
+.tealit {
+  /* flex: 1; */
+  width: 670rpx;
+  height: 270rpx;
+}
+.goods_teapic {
+  float: left;
+  width:330rpx;
+  height: 220rpx;
+  background-color: #fff;
+  box-shadow: -3px 3px 10px #888888; 
+}
+.goods_teapic image {
+  width: 310rpx;
+  height: 200rpx;
+  margin: 10rpx;
+}
+.tea_intros {
+  float: right;
+  /* width: 50%; */
+}
+.home_number {
+  font-size: 50rpx;
+  color:#5f4b4e;
+  Font-style:oblique;
+}
+.home_sales {
+  color: #888888;
+ font-size: 28rpx;
+}
+.home_price {
+ width: 153rpx;
+ height: 38rpx;
+ background-color: #13654f;
+ font-size: 24rpx;
+ color: #fff;
+ text-align: center;
+}
+.getgoods {
+  color: #b41203;
+  font-size: 26rpx;
+}
+.zan-text-deleted {
+  font-size: 22rpx;
+}
+.home_goodsname {
+ color: #5f4b4e;
+ font-size: 30rpx;
+}
+/*新茶推荐  */
+.newgoods_tuij image {
+  width: 672rpx;
+  height:120rpx;
+}
 .flex-wrp {
   display: flex;
   height: 110rpx;
@@ -88,7 +164,6 @@ margin: 15rpx 0;
  width: 332rpx;
  margin: 15rpx 15rpx 0 0;
  height:350rpx;
- border: 1rpx solid #e2e2e2;
 }
 .section__goodsname {
   font-size: 24rpx;
@@ -103,10 +178,14 @@ margin: 15rpx 0;
   color: #e64340;
 }
 .section__sales {
-  color: #888888;
+  color: #fff;
   float: right;
   font-size: 26rpx;
-  margin: 10rpx 10rpx;
+  padding: 6rpx 10rpx;
+  margin:  10rpx;
+  background-color: #7d0000;
+  border-radius: 10rpx;
+
 }
 .vip_section {
   background: #fff;
