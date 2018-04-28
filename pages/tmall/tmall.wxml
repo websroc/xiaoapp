@@ -16,7 +16,7 @@
   </view>
 </view>
 <view>
-  <image style='width:750rpx;height:152rpx;' src='../../images/banner2s.png'></image>
+  <image style='width:750rpx;height:152rpx;' src='../../images/banner2s.jpg'></image>
 </view>
 <view class="zan-panel">
   <view class="zan-card">
@@ -36,7 +36,7 @@
       </view>
       <view class="zan-card__detail-row zan-c-gray-darker">
         <view class="zan-card__left-col zan-c-red">
-          购物车</view>
+          立即购买</view>
       </view>
     </view>
   </view>

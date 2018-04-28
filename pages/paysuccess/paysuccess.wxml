@@ -1,0 +1,6 @@
+<view class="sucess_box">
+    <view wx:for="{{ icons }}" wx:for-item="icon" class="icon-wrap">
+      <view class="zan-icon zan-icon-{{ icon }}" ></view>
+      <view class="icon-classname">支付成功</view>
+    </view>
+  </view>

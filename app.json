@@ -28,8 +28,9 @@
     "pages/youhui/youhui",
     "pages/spxq/spxq",
      "pages/addaddress/addaddress",
-    "pages/pjxq/pjxq"
-    
+    "pages/pjxq/pjxq",
+    "pages/search/search",
+    "pages/paysuccess/paysuccess"
   ],
   "window":{
     "backgroundTextStyle":"light",

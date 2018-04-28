@@ -83,28 +83,28 @@ Page({
          mode: 'scaleToFill',
          goodsname: '安康名茶 当年新茶 富硒红茶 陕西特产 一茗红150g',
          price:'￥270',
-         sales:'月销0件',
+         sales:'立即购买',
          src: '../../images/tj1.jpg'
        },
        {
          mode: 'scaleToFill',
          goodsname: '安康名茶 当年新茶 富硒红茶 陕西特产 一茗红150g',
          price: '￥270',
-         sales: '月销0件',
+         sales: '立即购买',
          src: '../../images/tj2.jpg'
        },
        {
          mode: 'scaleToFill',
          goodsname: '安康名茶 当年新茶 富硒红茶 陕西特产 一茗红150g',
          price: '￥270',
-         sales: '月销0件',
+         sales: '立即购买',
          src: '../../images/tj3.jpg'
        },
        {
          mode: 'scaleToFill',
          goodsname: '安康名茶 当年新茶 富硒红茶 陕西特产 一茗红150g',
          price: '￥270',
-         sales: '月销0件',
+         sales: '立即购买',
          src: '../../images/tj4.jpg'
        },
      ],
