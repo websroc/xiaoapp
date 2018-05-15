@@ -1,13 +1,10 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/submit/submit",
-    "pages/personal/personal",
     "pages/personalcenter/personalcenter",
     "pages/record/record",
     "pages/tmall/tmall",
     "pages/menber/menber",
-    "pages/wallet/wallet",
     "pages/blacktea/blacktea",
     "pages/teatool/teatool",
     "pages/detail/detail",
@@ -16,7 +13,6 @@
     "pages/greentea/greentea",
     "pages/payment/payment",
     "pages/mycar/mycar",
-    "pages/logs/logs",
     "pages/bluetea/bluetea",
     "pages/coupon/coupon",
     "pages/ddxq/ddxq",
