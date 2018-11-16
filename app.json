@@ -52,16 +52,10 @@
         "text": "商城"
       },
       {
-        "selectedIconPath": "images/1231.png",
-        "iconPath": "images/123.png",
-        "pagePath": "pages/tcar/tcar",
-        "text": "购物车"
-      },
-      {
         "selectedIconPath": "images/1241.png",
         "iconPath": "images/124.png",
         "pagePath": "pages/personalcenter/personalcenter",
-        "text": "我的"
+        "text": "个人中心"
       }
     ]
   }
